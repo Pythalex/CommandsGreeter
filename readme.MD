@@ -2,6 +2,37 @@
 
 A simple greeter with useful commands for linux.
 
+    ╔═══════════════════════════════════════════════════════════════════════════════════╗
+    ║ SEARCH                                  SSH                                       ║
+    ║ ══════                                  ═══                                       ║
+    ║ grep pattern file                       ssh user@host                             ║
+    ║ grep -r pattern dir                     ssh -p port user@host (using port p)      ║
+    ║ command | grep pattern                  ssh -D port user@host (use bind port)     ║
+    ║ locate file                             NETWORK                                   ║
+    ║ PROCESS                                 ═══════                                   ║
+    ║ ═══════                                 whois domain                              ║
+    ║ ps aux                                  dig domain = get DNS for domain           ║
+    ║ kill pid                                dig -x host = reverse looking             ║
+    ║ killall proc                            wget file = download                      ║
+    ║ bg = list stopped/backgrouned           wget -c file continue stopped             ║
+    ║ fg bring most recent job                SYSTEM                                    ║
+    ║ fg -n bring job n                       ══════                                    ║
+    ║ COMPRESSION                             date                                      ║
+    ║ ═══════════                             cal                                       ║
+    ║ tar cf file.tar files compress files    df show disk usage                        ║
+    ║ tar xf file.tar untar into cd           du show disk directory space usage        ║
+    ║ tar tf file.tar show content            du -sh human readable size in GB          ║
+    ║ flags                                   free = show memory and swap usage         ║
+    ║ c create          | j bzip2             whereis app ═ show location               ║
+    ║ t table of content| k don't ow          SHORTCUTS                                 ║
+    ║ x extract         | T files from file   ═════════                                 ║
+    ║ f specifies filen | w ask for confirm   ctrl d log out                            ║
+    ║ z use zip/gzip    | v verbose           ctrlw erase one word in current line      ║
+    ║                                         ctrl u erase whole line                   ║
+    ║                                         ctrl r reverse look up of previous command║
+    ║                                         !! repeat last command                    ║
+    ╚═══════════════════════════════════════════════════════════════════════════════════╝
+
 ## How to use
 
 To add a greeter on linux, you can add whatever you want at the end of /etc/profile. Each time you will open a new terminal, it will print the text.
