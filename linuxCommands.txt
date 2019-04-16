@@ -1,30 +1,30 @@
-﻿╔═══════════════════════════════════════════════════════════════════════════════════╗
-║ SEARCH                                  SSH                                       ║
-║ ══════                                  ═══                                       ║
-║ grep pattern file                       ssh user@host                             ║
-║ grep -r pattern dir                     ssh -p port user@host (using port p)      ║
-║ command | grep pattern                  ssh -D port user@host (use bind port)     ║
-║ locate file                             NETWORK                                   ║
-║ PROCESS                                 ═══════                                   ║
-║ ═══════                                 whois domain                              ║
-║ ps aux                                  dig domain = get DNS for domain           ║
-║ kill pid                                dig -x host = reverse looking             ║
-║ killall proc                            wget file = download                      ║
-║ bg = list stopped/backgrouned           wget -c file continue stopped             ║
-║ fg bring most recent job                SYSTEM                                    ║
-║ fg -n bring job n                       ══════                                    ║
-║ COMPRESSION                             date                                      ║
-║ ═══════════                             cal                                       ║
-║ tar cf file.tar files compress files    df show disk usage                        ║
-║ tar xf file.tar untar into cd           du show disk directory space usage        ║
-║ tar tf file.tar show content            du -sh human readable size in GB          ║
-║ flags                                   free = show memory and swap usage         ║
-║ c create          | j bzip2             whereis app ═ show location               ║
-║ t table of content| k don't ow          SHORTCUTS                                 ║
-║ x extract         | T files from file   ═════════                                 ║
-║ f specifies filen | w ask for confirm   ctrl d log out                            ║
-║ z use zip/gzip    | v verbose           ctrlw erase one word in current line      ║
-║                                         ctrl u erase whole line                   ║
-║                                         ctrl r reverse look up of previous command║
-║                                         !! repeat last command                    ║
-╚═══════════════════════════════════════════════════════════════════════════════════╝
+ȀȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȄ
+Ȋ SEARCH                                  SSH                                       Ȋ
+Ȋ ȈȈȈȈȈȈ                                  ȈȈȈ                                       Ȋ
+Ȋ grep pattern file                       ssh user@host                             Ȋ
+Ȋ grep -r pattern dir                     ssh -p port user@host (using port p)      Ȋ
+Ȋ command | grep pattern                  ssh -D port user@host (use bind port)     Ȋ
+Ȋ locate file                             NETWORK                                   Ȋ
+Ȋ PROCESS                                 ȈȈȈȈȈȈȈ                                   Ȋ
+Ȋ ȈȈȈȈȈȈȈ                                 whois domain                              Ȋ
+Ȋ ps aux                                  dig domain = get DNS for domain           Ȋ
+Ȋ kill pid                                dig -x host = reverse looking             Ȋ
+Ȋ killall proc                            wget file = download                      Ȋ
+Ȋ bg = list stopped/backgrouned           wget -c file continue stopped             Ȋ
+Ȋ fg bring most recent job                SYSTEM                                    Ȋ
+Ȋ fg -n bring job n                       ȈȈȈȈȈȈ                                    Ȋ
+Ȋ COMPRESSION                             date                                      Ȋ
+Ȋ ȈȈȈȈȈȈȈȈȈȈȈ                             cal                                       Ȋ
+Ȋ tar cf file.tar files compress files    df show disk usage                        Ȋ
+Ȋ tar xf file.tar untar into cd           du show disk directory space usage        Ȋ
+Ȋ tar tf file.tar show content            du -sh human readable size in GB          Ȋ
+Ȋ flags                                   free = show memory and swap usage         Ȋ
+Ȋ c create          | j bzip2             whereis app Ȉ show location               Ȋ
+Ȋ t table of content| k don't ow          SHORTCUTS                                 Ȋ
+Ȋ x extract         | T files from file   ȈȈȈȈȈȈȈȈȈ                                 Ȋ
+Ȋ f specifies filen | w ask for confirm   ctrl d log out                            Ȋ
+Ȋ z use zip/gzip    | v verbose           ctrlw erase one word in current line      Ȋ
+Ȋ                                         ctrl u erase whole line                   Ȋ
+Ȋ                                         ctrl r reverse look up of previous commandȊ
+Ȋ                                         !! repeat last command                    Ȋ
+ȂȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȈȆ
