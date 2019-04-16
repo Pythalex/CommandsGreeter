@@ -6,8 +6,8 @@ special_chars = [
     'Ȃ', # down left
     'Ȅ', # up right
     'Ȇ', # down right
-    'Ȋ', # horizontal
-    'Ȉ' # vertical
+    'Ȉ', # vertical
+    'Ȋ'  # horizontal
 ]
 
 

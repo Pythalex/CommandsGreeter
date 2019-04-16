@@ -49,8 +49,8 @@ If you want to have something like the example greeter. Just create a txt file w
     'Ȃ' down left
     'Ȅ' up right
     'Ȇ' down right
-    'Ȋ' horizontal
     'Ȉ' vertical
+    'Ȋ' horizontal
 
 Then create or download a box theme of the following format:
 
