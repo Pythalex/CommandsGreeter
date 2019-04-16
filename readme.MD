@@ -64,9 +64,9 @@ for example :
 
     greeterfile
 
-    ȀȈȈȈȈȈȈȈȄ
-    Ȋ hello Ȋ
-    ȂȈȈȈȈȈȈȈȆ
+    ȀȊȊȊȊȊȊȊȄ
+    Ȉ hello Ȉ
+    ȂȊȊȊȊȊȊȊȆ
 
 
     boxtheme
